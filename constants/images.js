@@ -1,5 +1,5 @@
-import profile from "../assets/images/kemal.jpg";
+import profile from "../assets/images/jay.jpg";
 
 export default {
-  profile,
+  profile
 };
