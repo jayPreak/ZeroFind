@@ -1,16 +1,16 @@
 import React from "react";
 import { View, Text, TouchableOpacity, Image } from "react-native";
-// import { checkImageURL } from "../../../utils";
 import { checkImageURL } from "../../../../utils";
 import styles from "./popularjobcard.style";
 
-const PopularJobCard = ({ item, selectedCard, handleCardPress }) => {
+const PopularJobCard = ({ item, selectedJob, handleCardPress }) => {
+  // console.log(item);
   return (
     <TouchableOpacity
-      style={styles.container(selectedCard, item)}
+      style={styles.container(selectedJob, item)}
       onPress={() => handleCardPress(item)}
     >
-      <TouchableOpacity style={styles.logoContainer(selectedCard, item)}>
+      <TouchableOpacity style={styles.logoContainer(selectedJob, item)}>
         <Image
           source={{
             uri: checkImageURL(item.employer_logo)
@@ -27,10 +27,17 @@ const PopularJobCard = ({ item, selectedCard, handleCardPress }) => {
       </Text>
 
       <View style={styles.infoContainer}>
-        <Text style={styles.jobName(selectedCard, item)} numberOfLines={1}>
+        <Text style={styles.jobName(selectedJob, item)} numberOfLines={1}>
           {item.job_title}
         </Text>
-        <Text style={styles.location}>{item.job_country}</Text>
+        <View style={styles.infoWrapper}>
+          <Text
+          // style={styles.publisher(selectedJob, item)}
+          >
+            {item.job_publisher} -
+          </Text>
+          <Text style={styles.location}> {item.job_country}</Text>
+        </View>
       </View>
     </TouchableOpacity>
   );

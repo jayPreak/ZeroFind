@@ -1,5 +1,5 @@
 const COLORS = {
-  primary: "#312651",
+  primary: "#AA2238",
   secondary: "#444262",
   tertiary: "#F50000",
 
