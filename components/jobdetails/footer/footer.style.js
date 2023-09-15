@@ -12,36 +12,36 @@ const styles = StyleSheet.create({
     backgroundColor: "#FFF",
     justifyContent: "space-between",
     alignItems: "center",
-    flexDirection: "row",
+    flexDirection: "row"
   },
   likeBtn: {
     width: 55,
     height: 55,
     borderWidth: 1,
-    borderColor: "#F37453",
+    borderColor: "#a90000",
     borderRadius: SIZES.medium,
     justifyContent: "center",
-    alignItems: "center",
+    alignItems: "center"
   },
   likeBtnImage: {
     width: "40%",
     height: "40%",
-    tintColor: "#F37453",
+    tintColor: "#a90000"
   },
   applyBtn: {
     flex: 1,
-    backgroundColor: "#FE7654",
+    backgroundColor: "#a90000",
     height: "100%",
     justifyContent: "center",
     alignItems: "center",
     marginLeft: SIZES.medium,
-    borderRadius: SIZES.medium,
+    borderRadius: SIZES.medium
   },
   applyBtnText: {
     fontSize: SIZES.medium,
     color: COLORS.white,
-    fontFamily: FONT.bold,
-  },
+    fontFamily: FONT.bold
+  }
 });
 
 export default styles;
