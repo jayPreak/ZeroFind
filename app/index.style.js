@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
   applyBtn: {
     // flex: 1,
     backgroundColor: "#ffebeb",
-    height: "60px",
+    height: "7%",
     justifyContent: "center",
     alignItems: "center",
     // marginLeft: SIZES.medium,
