@@ -13,6 +13,9 @@ https://expo.dev/artifacts/eas/3k1mv24NhrYs8hWaeqhwk7.apk
 
 ## Screenshots 🤳
 
+![image](https://github.com/jayPreak/ZeroFinder/assets/68821643/98b8789a-fbad-410d-aedc-1b1c4b53bebb)
+![image](https://github.com/jayPreak/ZeroFinder/assets/68821643/3ebb629b-58c2-4623-9976-246fb177cd45)
+![image](https://github.com/jayPreak/ZeroFinder/assets/68821643/1ad8fe41-79a7-43c0-8907-2cdd4e649182)
 
 ## 📝 Notes
 
