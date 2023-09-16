@@ -7,6 +7,12 @@ Use [`expo-router`](https://expo.github.io/router) to build native navigation us
 ```sh
 npx create-expo-app -e with-router
 ```
+## Android APK download link
+
+https://expo.dev/artifacts/eas/3k1mv24NhrYs8hWaeqhwk7.apk
+
+## Screenshots 🤳
+
 
 ## 📝 Notes
 
